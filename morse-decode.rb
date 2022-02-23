@@ -15,3 +15,9 @@ def decode_morse_code(str)
   }
   return result
 end
+
+puts decode_morse_code("-- -.--   -. .- -- .")
+# => MY NAME
+
+puts decode_morse_code(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# => A BOX FULL OF RUBIES
