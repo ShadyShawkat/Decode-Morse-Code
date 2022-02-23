@@ -4,7 +4,6 @@
 
 > A Ruby app to decode any morse message.
 
-
 ## Built With
 
 - Ruby
@@ -13,12 +12,10 @@
 
 To get a local copy up and running follow these simple example steps:
 
-1- Click on the top right green **`code`** button.<br> 
+1- Click on the top right green **`code`** button.<br>
 2- On the dropdown menu, choose the **`download zip`** button.<br>
-3- After download, extract the zip file and you have the project running on your machine.<br> 
+3- After download, extract the zip file and you have the project running on your machine.<br>
 4- You can also clone the project using the **`git clone git@github.com:ShadyShawkat/Decode-Morse-Code.git`** command.<br>
-
-
 
 ## Authors
 
@@ -28,11 +25,11 @@ To get a local copy up and running follow these simple example steps:
 - Twitter: [@ShadyShawkat3](https://twitter.com/ShadyShawkat3)
 - LinkedIn: [Shady Shawkat](https://linkedin.com/in/Shady-Shawkat)
 
-👤 **Author2**
+👤 **George Magdy**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@George_Magdy](https://github.com/gemmen29)
+- Twitter: [@George_Magdy](https://twitter.com/georgtriple1)
+- LinkedIn: [@George_Magdy](https://www.linkedin.com/in/george-magdy-840/)
 
 ## 🤝 Contributing
 
