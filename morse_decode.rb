@@ -11,9 +11,9 @@ end
 
 def decode_word(word)
   final_word = ''
-  word.split(/ /).each { |char| 
+  word.split(/ /).each do |char|
     final_word += decode_char(char)
-  }
+  end
   final_word
 end
 
