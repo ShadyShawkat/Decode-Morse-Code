@@ -1,4 +1,4 @@
-def decode_morse_code(str)
+def decode_char(char)
   chars_to_morse = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E', '..-.' => 'F',
     '--.' => 'G', '....' => 'H', '..' => 'I', '.---' => 'J', '-.-' => 'K', '.-..' => 'L',
@@ -6,11 +6,13 @@ def decode_morse_code(str)
     '...' => 'S', '-' => 'T', '..-' => 'U', '...-' => 'V', '.--' => 'W', '-..-' => 'X',
     '-.--' => 'Y', '--..' => 'Z', '   ' => ' ', ' ' => ''
   }
-
+  return chars_to_morse[char]
+end
+def decode_morse_code(str)
   result = ''
   str = str.split(/   /)
   str.each do |word|
-    word.split(/ /).each { |char| result += chars_to_morse[char] }
+    word.split(/ /).each { |char| result += decode_char(char) }
     result += ' '
   end
   result
