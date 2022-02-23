@@ -9,14 +9,22 @@ def decode_char(char)
   chars_to_morse[char]
 end
 
+def decode_word(word)
+  final_word = ''
+  word.split(/ /).each { |char| 
+    final_word += decode_char(char)
+  }
+  final_word
+end
+
 def decode_morse_code(str)
-  result = ''
+  final_phrase = ''
   str = str.split(/   /)
   str.each do |word|
-    word.split(/ /).each { |char| result += decode_char(char) }
-    result += ' '
+    final_phrase += decode_word(word)
+    final_phrase += ' '
   end
-  result
+  final_phrase
 end
 
 puts decode_morse_code('-- -.--   -. .- -- .')
