@@ -6,8 +6,9 @@ def decode_char(char)
     '...' => 'S', '-' => 'T', '..-' => 'U', '...-' => 'V', '.--' => 'W', '-..-' => 'X',
     '-.--' => 'Y', '--..' => 'Z', '   ' => ' ', ' ' => ''
   }
-  return chars_to_morse[char]
+  chars_to_morse[char]
 end
+
 def decode_morse_code(str)
   result = ''
   str = str.split(/   /)
