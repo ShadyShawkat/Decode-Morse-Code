@@ -1,50 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Morse Decoder
 
-> Description the project.
+> A Ruby app to decode any morse message.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps:
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+1- Click on the top right green **`code`** button.<br> 
+2- On the dropdown menu, choose the **`download zip`** button.<br>
+3- After download, extract the zip file and you have the project running on your machine.<br> 
+4- You can also clone the project using the **`git clone git@github.com:ShadyShawkat/Decode-Morse-Code.git`** command.<br>
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Shady Shawkat**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ShadyShawkat](https://github.com/ShadyShawkat)
+- Twitter: [@ShadyShawkat3](https://twitter.com/ShadyShawkat3)
+- LinkedIn: [Shady Shawkat](https://linkedin.com/in/Shady-Shawkat)
 
 👤 **Author2**
 
